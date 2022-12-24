@@ -1,2 +1,3 @@
 # chess
-simple chess emulator
+simple chess emulator.
+
