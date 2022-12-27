@@ -4,7 +4,7 @@ from figures.figure import Figure
 class Rook(Figure):
 
     def _check_pawn_moves(self, x, y):
-        if abs(y - self.y == 2 and x - self.x == 1 or x - self.x == 2 and y - self.y == 1 or y - self.y == 2):
+        if abs(y - self.y) == 2 and abs(x - self.x) == 1 or abs(x - self.x) == 2 and abs(y - self.y) == 1:
             return True
         return False
 

@@ -4,6 +4,7 @@ from figures.figure import Color
 class Game:
     def _init_figures(self):
         return []
+
     def __init__(self):
         self.figures = []
         self.is_black_did_castling = self._init_figures()

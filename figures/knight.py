@@ -1,10 +1,10 @@
 from figures.figure import Figure
 
 
-class Knight(Figure):
+class Queen(Figure):
 
     def _check_pawn_moves(self, x, y):
-        if y - self.y in range(1) and x == self.x in range(1):
+        if abs(y - self.y == x - self.x):
             return True
         return False
 
